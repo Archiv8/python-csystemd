@@ -1,0 +1,64 @@
+Checking PKGBUILD
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/usr/lib/python3.9/site-packages/namcap.py", line 247, in <module>
+    process_pkgbuild(package, active_modules)
+  File "/usr/lib/python3.9/site-packages/namcap.py", line 148, in process_pkgbuild
+    ret = rule.analyze(pkginfo, package)
+  File "/usr/lib/python3.9/site-packages/Namcap/rules/makedepends.py", line 59, in analyze
+    for s in pkginfo["source"]:
+  File "/usr/lib/python3.9/site-packages/Namcap/package.py", line 128, in __getitem__
+    return self._data[self.canonical_varname(key)]
+KeyError: 'source'
+Checking python-cysystemd-1.4.5-1-any.pkg.tar.zst
+python-cysystemd E: ELF file ('usr/lib/python3.7/site-packages/cysystemd.libs/libattr-4f2a9577.so.1.1.0') found in an 'any' package.
+python-cysystemd E: ELF file ('usr/lib/python3.7/site-packages/cysystemd.libs/libbz2-a273e504.so.1.0.6') found in an 'any' package.
+python-cysystemd E: ELF file ('usr/lib/python3.7/site-packages/cysystemd.libs/libcap-79733b59.so.2.22') found in an 'any' package.
+python-cysystemd E: ELF file ('usr/lib/python3.7/site-packages/cysystemd.libs/libdw-0-8f5e8119.176.so') found in an 'any' package.
+python-cysystemd E: ELF file ('usr/lib/python3.7/site-packages/cysystemd.libs/libelf-0-e5f2d1f9.176.so') found in an 'any' package.
+python-cysystemd E: ELF file ('usr/lib/python3.7/site-packages/cysystemd.libs/libgcrypt-18957bae.so.11.8.2') found in an 'any' package.
+python-cysystemd E: ELF file ('usr/lib/python3.7/site-packages/cysystemd.libs/libgpg-error-3f09c3c7.so.0.10.0') found in an 'any' package.
+python-cysystemd E: ELF file ('usr/lib/python3.7/site-packages/cysystemd.libs/liblz4-365c716e.so.1.7.5') found in an 'any' package.
+python-cysystemd E: ELF file ('usr/lib/python3.7/site-packages/cysystemd.libs/liblzma-07b5b5c8.so.5.2.2') found in an 'any' package.
+python-cysystemd E: ELF file ('usr/lib/python3.7/site-packages/cysystemd.libs/libpcre-9513aab5.so.1.2.0') found in an 'any' package.
+python-cysystemd E: ELF file ('usr/lib/python3.7/site-packages/cysystemd.libs/libselinux-0922c95c.so.1') found in an 'any' package.
+python-cysystemd E: ELF file ('usr/lib/python3.7/site-packages/cysystemd.libs/libsystemd-e4f8ccf5.so.0.6.0') found in an 'any' package.
+python-cysystemd E: ELF file ('usr/lib/python3.7/site-packages/cysystemd.libs/libz-d8a329de.so.1.2.7') found in an 'any' package.
+python-cysystemd E: ELF file ('usr/lib/python3.7/site-packages/cysystemd/_daemon.cpython-39-x86_64-linux-gnu.so') found in an 'any' package.
+python-cysystemd E: ELF file ('usr/lib/python3.7/site-packages/cysystemd/_journal.cpython-39-x86_64-linux-gnu.so') found in an 'any' package.
+python-cysystemd E: ELF file ('usr/lib/python3.7/site-packages/cysystemd/reader.cpython-39-x86_64-linux-gnu.so') found in an 'any' package.
+python-cysystemd W: ELF file ('usr/lib/python3.7/site-packages/cysystemd.libs/libattr-4f2a9577.so.1.1.0') lacks FULL RELRO, check LDFLAGS.
+python-cysystemd W: ELF file ('usr/lib/python3.7/site-packages/cysystemd.libs/libbz2-a273e504.so.1.0.6') lacks FULL RELRO, check LDFLAGS.
+python-cysystemd W: ELF file ('usr/lib/python3.7/site-packages/cysystemd.libs/libcap-79733b59.so.2.22') lacks FULL RELRO, check LDFLAGS.
+python-cysystemd W: ELF file ('usr/lib/python3.7/site-packages/cysystemd.libs/libdw-0-8f5e8119.176.so') lacks FULL RELRO, check LDFLAGS.
+python-cysystemd W: ELF file ('usr/lib/python3.7/site-packages/cysystemd.libs/libelf-0-e5f2d1f9.176.so') lacks FULL RELRO, check LDFLAGS.
+python-cysystemd W: ELF file ('usr/lib/python3.7/site-packages/cysystemd.libs/libgcrypt-18957bae.so.11.8.2') lacks FULL RELRO, check LDFLAGS.
+python-cysystemd W: ELF file ('usr/lib/python3.7/site-packages/cysystemd.libs/libgpg-error-3f09c3c7.so.0.10.0') lacks FULL RELRO, check LDFLAGS.
+python-cysystemd W: ELF file ('usr/lib/python3.7/site-packages/cysystemd.libs/liblz4-365c716e.so.1.7.5') lacks FULL RELRO, check LDFLAGS.
+python-cysystemd W: ELF file ('usr/lib/python3.7/site-packages/cysystemd.libs/liblzma-07b5b5c8.so.5.2.2') lacks FULL RELRO, check LDFLAGS.
+python-cysystemd W: ELF file ('usr/lib/python3.7/site-packages/cysystemd.libs/libpcre-9513aab5.so.1.2.0') lacks FULL RELRO, check LDFLAGS.
+python-cysystemd W: ELF file ('usr/lib/python3.7/site-packages/cysystemd.libs/libselinux-0922c95c.so.1') lacks FULL RELRO, check LDFLAGS.
+python-cysystemd W: ELF file ('usr/lib/python3.7/site-packages/cysystemd/_daemon.cpython-39-x86_64-linux-gnu.so') lacks FULL RELRO, check LDFLAGS.
+python-cysystemd W: ELF file ('usr/lib/python3.7/site-packages/cysystemd/_journal.cpython-39-x86_64-linux-gnu.so') lacks FULL RELRO, check LDFLAGS.
+python-cysystemd W: ELF file ('usr/lib/python3.7/site-packages/cysystemd/reader.cpython-39-x86_64-linux-gnu.so') lacks FULL RELRO, check LDFLAGS.
+python-cysystemd E: Insecure RPATH 'cysystemd.libs' in file ('usr/lib/python3.7/site-packages/cysystemd.libs/libdw-0-8f5e8119.176.so')
+python-cysystemd W: Referenced library 'libpcre-9513aab5.so.1.2.0' is an uninstalled dependency
+python-cysystemd W: Referenced library 'liblzma-07b5b5c8.so.5.2.2' is an uninstalled dependency
+python-cysystemd W: Referenced library 'libdw-0-8f5e8119.176.so' is an uninstalled dependency
+python-cysystemd W: Referenced library 'libbz2-a273e504.so.1.0.6' is an uninstalled dependency
+python-cysystemd W: Referenced library 'libelf-0-e5f2d1f9.176.so' is an uninstalled dependency
+python-cysystemd W: Referenced library 'libattr-4f2a9577.so.1.1.0' is an uninstalled dependency
+python-cysystemd W: Referenced library 'libcap-79733b59.so.2.22' is an uninstalled dependency
+python-cysystemd W: Referenced library 'libsystemd-e4f8ccf5.so.0.6.0' is an uninstalled dependency
+python-cysystemd W: Referenced library 'libselinux-0922c95c.so.1' is an uninstalled dependency
+python-cysystemd W: Referenced library 'liblz4-365c716e.so.1.7.5' is an uninstalled dependency
+python-cysystemd W: Referenced library 'libgpg-error-3f09c3c7.so.0.10.0' is an uninstalled dependency
+python-cysystemd W: Referenced library 'libz-d8a329de.so.1.2.7' is an uninstalled dependency
+python-cysystemd W: Referenced library 'libgcrypt-18957bae.so.11.8.2' is an uninstalled dependency
+python-cysystemd W: Unused shared library '/usr/lib/libpthread.so.0' by file ('usr/lib/python3.7/site-packages/cysystemd/_daemon.cpython-39-x86_64-linux-gnu.so')
+python-cysystemd W: Unused shared library '/usr/lib/libpthread.so.0' by file ('usr/lib/python3.7/site-packages/cysystemd/_journal.cpython-39-x86_64-linux-gnu.so')
+python-cysystemd W: Unused shared library '/usr/lib/libpthread.so.0' by file ('usr/lib/python3.7/site-packages/cysystemd/reader.cpython-39-x86_64-linux-gnu.so')
+python-cysystemd W: Dependency included and not needed ('cython')
