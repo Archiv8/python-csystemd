@@ -20,7 +20,7 @@ _relname="cysystemd"
 
 pkgname=${_prefix}-${_relname}
 pkgver=1.5.2
-pkgrel=1
+pkgrel=2
 pkgdesc="A SystemD wrapper on Cython"
 arch=(
   "x86_64"
